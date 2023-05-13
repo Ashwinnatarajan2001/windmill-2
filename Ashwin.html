@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>windmill</title>
+    <link rel="stylesheet" href="Ashwin.css">
+  </head>
+<body>
+    
+    <div>
+        <header id="header1">
+            <div class="container">
+              <h2>
+              <span style="--i:1;">W</span>
+              <span style="--i:2;">i</span>
+              <span style="--i:3;">n</span>
+              <span style="--i:4;">d</span>
+              <span style="--i:5;">m</span>
+              <span style="--i:6;">i</span>
+              <span style="--i:7;">l</span>
+              <span style="--i:8;">l</span>
+              <span style="--i:9;margin-left: 5vw;">E</span>
+              <span style="--i:10;">n</span>
+              <span style="--i:11;">e</span>
+              <span style="--i:12;">r</span>
+              <span style="--i:13;">g</span>
+              <span style="--i:14;">y</span>
+            </h2>
+            </div></header>
+        <nav id="navbar">
+          <div class="container">
+            <ul>
+              <li><a><button class="btn" onclick="togglePopup()">Home</button></a></li>
+              <li><a><button class="btn" onclick="togglePopup()">About</button></a></li>
+              <li><a><button class="btn" onclick="togglePopup()">Service</button></a></li>
+              <li><a><button class="btn" onclick="togglePopup()">Gallery</button></a></li>
+              <li><a><button class="btn" onclick="togglePopup()">News</button></a></li>
+              
+            </ul>
+          </div>
+        </nav>
+         
+      </div>
+      <div class="RENEWABLE">
+        <h1>RENEWABLE ENERGY</h1>
+      </div>
+      <div class="box-canvas">
+        <div class="pole">
+            <img src="mill.png">
+        </div>
+        <div class="blade-wrapper">
+            <div class="blade one"></div>
+            <div class="blade two"></div>
+            <div class="blade three"></div>
+        </div>
+    </div>
+
+    <div class="background-image">
+
+    </div>
+    
+    <div class="popup" id="Popup-1">
+      
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>Welcome to WME</h1>
+                
+      </div>
+    </div>
+    
+    
+ 
+    
+    <script>
+      function togglePopup(){
+        document.getElementById("Popup-1").classList.toggle("active");
+      }
+      </script>
+
+</body>
+</html>
